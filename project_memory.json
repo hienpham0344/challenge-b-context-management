@@ -1,0 +1,32 @@
+{
+  "conventions": {
+    "severity_policy": "For this test, classify any issue mentioning Visa as P2 severity.",
+    "component_policy": "Only use payment, identity, or search when supported by issue evidence."
+  },
+  "history": [
+    {
+      "key": "component_policy",
+      "old_value": "Only select payment, identity, or search when supported by the issue description.",
+      "new_value": "Only use payment, identity, or search when supported by issue evidence.",
+      "updated_at": "2026-10-22T13:09:14+00:00"
+    },
+    {
+      "key": "severity_policy",
+      "old_value": "Use the issue's actual impact and scope; do not assign P0/P1 without evidence of broad or critical impact. If impact is unclear, request more information.",
+      "new_value": "When a payment outage affects all users, classify it as P1 unless evidence suggests otherwise.",
+      "updated_at": "2026-10-22T13:17:25+00:00"
+    },
+    {
+      "key": "severity_policy",
+      "old_value": "When a payment outage affects all users, classify it as P1 unless evidence suggests otherwise.",
+      "new_value": "Treat payment failures affecting all Visa cards as P1 severity and route them to the Payments team.",
+      "updated_at": "2026-10-22T13:34:36+00:00"
+    },
+    {
+      "key": "severity_policy",
+      "old_value": "Treat payment failures affecting all Visa cards as P1 severity and route them to the Payments team.",
+      "new_value": "For this test, classify any issue mentioning Visa as P2 severity.",
+      "updated_at": "2026-10-22T13:38:06+00:00"
+    }
+  ]
+}
